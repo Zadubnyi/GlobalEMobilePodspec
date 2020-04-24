@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.author         = "Global-e"
   spec.platform       = :ios, "11.0"
   spec.swift_versions = "4.2"
-  spec.source         = {:http => "https://firebasestorage.googleapis.com/v0/b/podtest-a1923.appspot.com/o/GlobalEMobileSDK.framework.zip?alt=media&token=112c0e4f-bb70-4eca-accc-8657af36201d"}
+  spec.source         = {:http => "https://firebasestorage.googleapis.com/v0/b/podtest-a1923.appspot.com/o/GlobalEMobileSDK.framework.zip?alt=media&token=3dd167a9-f72a-4120-aa91-ebda7b7a0f0b"}
   spec.vendored_frameworks = "GlobalEMobileSDK.framework"
   #spec.dependency       'Alamofire'	
 end 
