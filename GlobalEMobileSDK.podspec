@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name           = "GlobalEMobileSDK"
-  spec.version        = "1.0.6"
+  spec.version        = "1.0.7"
   spec.summary        = "Global-e SDK for Mobile Apps"
   spec.description    = "This library can be used by Global-e merchants to implement localized e-commerce experience in the mobile application"
   spec.homepage       = "https://www.global-e.com/"
@@ -23,8 +23,10 @@ Pod::Spec.new do |spec|
   spec.author         = "Global-e"
   spec.platform       = :ios, "10.0"
   spec.swift_versions = "4.2"
-  spec.source         = {:http => "https://firebasestorage.googleapis.com/v0/b/podtest-a1923.appspot.com/o/GlobalEMobileSDK1.0.6.framework.zip?alt=media&token=03f4193f-3bca-424f-8643-2d431db59a53"}
+  spec.source         = {:http => "https://firebasestorage.googleapis.com/v0/b/podtest-a1923.appspot.com/o/GlobalEMobileSDK1.0.7.framework.zip?alt=media&token=c5e9fa41-db08-45c1-8cb4-bfd26bd6c259"}
   spec.vendored_frameworks = "GlobalEMobileSDK.framework"
-  spec.dependency        'Alamofire', '~> 5.1'
-  spec.dependency        'Adyen', '~> 3.8.5'
+  spec.dependency        'Alamofire', '5.1'
+  spec.dependency        'Adyen', '3.8.5'
+  spec.dependency        'Braintree', '4.34.0'
+
 end 
