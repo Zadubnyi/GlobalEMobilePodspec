@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name           = "GlobalEMobileSDK"
-  spec.version        = "1.0.10"
+  spec.version        = "1.0.11"
   spec.summary        = "Global-e SDK for Mobile Apps"
   spec.description    = "This library can be used by Global-e merchants to implement localized e-commerce experience in the mobile application"
   spec.homepage       = "https://www.global-e.com/"
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.author         = "Global-e"
   spec.platform       = :ios, "10.0"
   spec.swift_versions = "4.2"
-  spec.source         = {:http => "https://firebasestorage.googleapis.com/v0/b/podtest-a1923.appspot.com/o/GlobalEMobileSDK1.0.9.framework.zip?alt=media&token=f3649b11-bd80-4c25-8ee8-9f97fda5d074"}
+  spec.source         = {:http => "https://firebasestorage.googleapis.com/v0/b/podtest-a1923.appspot.com/o/GlobalEMobileSDK1.0.10.framework.zip?alt=media&token=68050564-1ee4-4380-b7f2-bd1bb0e71309"}
   spec.vendored_frameworks = "GlobalEMobileSDK.framework"
   spec.dependency        'Alamofire', '5.4'
   spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
