@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name           = "GlobalEMobileSDK"
-  spec.version        = "1.0.9"
+  spec.version        = "1.0.10"
   spec.summary        = "Global-e SDK for Mobile Apps"
   spec.description    = "This library can be used by Global-e merchants to implement localized e-commerce experience in the mobile application"
   spec.homepage       = "https://www.global-e.com/"
@@ -28,5 +28,6 @@ Pod::Spec.new do |spec|
   spec.dependency        'Alamofire', '5.4'
   spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.pod_target_xcconfig =  { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
 end 
